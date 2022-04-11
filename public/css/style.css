@@ -61,7 +61,7 @@ main {
 /* A propos */
 .about {
     background-color: white;
-    height: 50vh;
+    height:auto;
     margin: 5vh 0;
     padding: 5vh 20vw;
     display: flex;
@@ -78,13 +78,6 @@ main {
     padding: 25px; /* pour que la bordure ne touche pas l'icone */
 }
 
-.btn {
-    border: 1px solid grey;
-    display: inline;
-    padding: 10px 20px;
-    /* Propriétés pour tous les boutons */
-}
-
 
 .about p {
     line-height: 25px; /* Espace entre ligne du p */
@@ -92,7 +85,6 @@ main {
 
 /* Début des cards */
 .card-container {
-    height: auto;
     margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
@@ -103,8 +95,29 @@ main {
 .cards {
     background-color: white;
     width: 49%;
-    height:500px;
-    margin-top: 20px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid grey;
+    display: inline;
+    padding: 10px 20px;
+    margin-bottom:30px;
+    /* Propriétés pour tous les boutons */
+}
+
+.cards p:first-child {
+    padding: 20px 10px;
+}
+.img {
+    position: relative;
+}
+h3 {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    color: white;
+    /* z-index: 9999; */
 }
 
 main img {
@@ -118,7 +131,7 @@ footer {
 }
 
 footer div {
-    padding: 4vh 30%;
+    padding: 4vh 20%;
 }
 footer hr {
     width: 10%;
