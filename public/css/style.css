@@ -107,10 +107,10 @@ main {
     margin-top: 20px;
 }
 
-
 main img {
-    width: 100%;
+    width: 100%; /* pour que l'image prenne 100% de sa div */
 }
+
 /* Début footer */
 footer {
     text-align: center;

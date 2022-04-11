@@ -1,0 +1,24 @@
+@media screen and (max-width : 768px) {
+    main {
+        width: 100%;
+    }
+
+    .fa-gem {
+        padding: 15px;
+    }
+
+    .card-container {
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 100%;
+        height: 600px;
+    }
+    footer {
+        margin: 5vh;
+    }
+    footer div {
+        padding : 3vh 10%;
+    }
+}
