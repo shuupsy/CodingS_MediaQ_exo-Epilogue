@@ -20,13 +20,14 @@ span {
     border-bottom: 1px dotted;
     /* Souligner les éléments sélectionnés */
 }
+
 button {
     background-color: white;
     border: 1px solid grey;
     border-radius: 5%;
     display: inline;
     padding: 10px 20px;
-    margin-bottom:30px;
+    margin-bottom: 30px;
     /* Propriétés pour tous les boutons */
 }
 
@@ -70,7 +71,7 @@ main {
 /* A propos */
 .about {
     background-color: white;
-    height:auto;
+    height: auto;
     margin: 5vh 0;
     padding: 5vh 20vw;
     display: flex;
@@ -84,12 +85,14 @@ main {
     color: grey;
     border: 1px solid grey;
     border-radius: 50%;
-    padding: 25px; /* pour que la bordure ne touche pas l'icone */
+    padding: 25px;
+    /* pour que la bordure ne touche pas l'icone */
 }
 
 
 .about p {
-    line-height: 25px; /* Espace entre ligne du p */
+    line-height: 25px;
+    /* Espace entre ligne du p */
 }
 
 /* Début des cards */
@@ -97,10 +100,11 @@ main {
     margin: 30px auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     gap: 10px;
 }
+
 .cards {
     background-color: white;
     width: 49%;
@@ -117,7 +121,8 @@ h3 {
 }
 
 main img {
-    width: 100%; /* pour que l'image prenne 100% de sa div */
+    width: 100%;
+    /* pour que l'image prenne 100% de sa div */
 }
 
 /* Début footer */
@@ -129,9 +134,11 @@ footer {
 footer div {
     padding: 4vh 20%;
 }
+
 footer hr {
     width: 10%;
 }
+
 footer i {
-    padding : 0 10px;
+    padding: 0 10px;
 }
