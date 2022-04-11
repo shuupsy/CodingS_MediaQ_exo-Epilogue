@@ -33,4 +33,11 @@
     footer div {
         padding : 3vh 1%;
     }
+    .reseaux {
+        display: flex;
+        flex-direction: column;
+    }
+    footer i {
+        padding: 15px 0;
+    }
 }
