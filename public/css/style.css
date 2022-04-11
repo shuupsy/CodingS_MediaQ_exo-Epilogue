@@ -25,7 +25,8 @@ span {
 .bouton {
     border: 1px solid grey;
     display: inline;
-    padding: 10px 30px;
+    padding: 10px 20px;
+    /* Propriétés pour tous les boutons */
 }
 
 /* Début header */
@@ -84,5 +85,46 @@ main {
 }
 
 .about p {
-    line-height: 25px;
+    line-height: 25px; /* Espace entre ligne */
+}
+
+/* Début des cards */
+.card-container, .cards {
+    border: 1px solid red;
+}
+
+.card-container {
+    max-width: 1300px;
+    height: auto;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.cards {
+    width: 500px;
+    height:500px;
+    margin-top: 15px;
+}
+
+
+main img {
+    width: 100%;
+}
+/* Début footer */
+footer {
+    text-align: center;
+    margin: 10vh;
+}
+
+footer div {
+    padding: 3vh;
+}
+footer hr {
+    width: 7%;
+}
+footer i {
+    padding : 0 10px;
 }
