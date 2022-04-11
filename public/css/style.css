@@ -12,8 +12,7 @@
 body {
     margin: 0;
     padding: 0;
-    /* background-color: #F4F4F4; */
-    background-color: greenyellow;
+    background-color: #F4F4F4;
     font-family: Lato, sans-serif;
 }
 
@@ -26,6 +25,7 @@ span {
     border: 1px solid grey;
     display: inline;
     padding: 10px 20px;
+    margin-top : 25px;
     /* Propriétés pour tous les boutons */
 }
 
@@ -89,10 +89,6 @@ main {
 }
 
 /* Début des cards */
-.card-container, .cards {
-    border: 1px solid red;
-}
-
 .card-container {
     max-width: 1300px;
     height: auto;
@@ -120,10 +116,10 @@ footer {
 }
 
 footer div {
-    padding: 3vh;
+    padding: 4vh 30%;
 }
 footer hr {
-    width: 7%;
+    width: 10%;
 }
 footer i {
     padding : 0 10px;
