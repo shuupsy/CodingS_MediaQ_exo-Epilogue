@@ -98,16 +98,16 @@ main {
 /* Début des cards */
 .card-container {
     margin: 30px auto;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 25px;
 }
 
 .cards {
     background-color: white;
-    width: 49%;
+    width: 100%;
 }
 
 .cards p:first-child {
@@ -116,7 +116,7 @@ main {
 
 h3 {
     position: relative;
-    top: -170px;
+    bottom: 170px;
     color: white;
 }
 
