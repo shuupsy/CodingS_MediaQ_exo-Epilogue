@@ -20,6 +20,15 @@ span {
     border-bottom: 1px dotted;
     /* Souligner les éléments sélectionnés */
 }
+button {
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 5%;
+    display: inline;
+    padding: 10px 20px;
+    margin-bottom:30px;
+    /* Propriétés pour tous les boutons */
+}
 
 /* Début header */
 header {
@@ -97,27 +106,14 @@ main {
     width: 49%;
 }
 
-button {
-    background-color: white;
-    border: 1px solid grey;
-    display: inline;
-    padding: 10px 20px;
-    margin-bottom:30px;
-    /* Propriétés pour tous les boutons */
+.cards p:first-child {
+    padding: 20px 30px;
 }
 
-.cards p:first-child {
-    padding: 20px 10px;
-}
-.img {
-    position: relative;
-}
 h3 {
-    position: absolute;
-    top: 40%;
-    left: 35%;
+    position: relative;
+    top: -170px;
     color: white;
-    /* z-index: 9999; */
 }
 
 main img {
